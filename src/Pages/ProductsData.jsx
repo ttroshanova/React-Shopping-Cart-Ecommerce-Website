@@ -29,7 +29,8 @@ export const Items = [
         '720p HD video recording at 30 fps'
     ],
     src: tech_1,
-    price: '1,099'
+    price: '1,099',
+    quantity: 0
     },
     {name: 'Apple Watch Series 7',
     description: [

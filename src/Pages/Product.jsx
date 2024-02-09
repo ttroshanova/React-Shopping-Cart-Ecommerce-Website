@@ -4,7 +4,7 @@ import { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 import gsap from 'gsap'
 
-const Product = ({ index, itemSrc, name, price}) => {
+const Product = ({ index, itemSrc, name, price }) => {
     const { addToCart } = useContext(UserContext);
     let navigate = useNavigate();
 

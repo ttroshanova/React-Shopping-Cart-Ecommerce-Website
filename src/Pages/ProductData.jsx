@@ -21,12 +21,9 @@ const ProductData = () => {
     <div className='product-data-container'>
       <div className="product-data-inner">
       <div className="img-container">
-        <div className="img-container-inner">
           <img src={Items[index].src} className='descr-img'/>
-        </div>
       </div>
       <div className="content">
-        <div className="content-inner">
           <h2 className='descr-item'>{Items[index].name}</h2>
           <ul className='product-description'>
             {Items[index].description.map(item => (
@@ -37,7 +34,6 @@ const ProductData = () => {
           onClick={() => addToCart(index, Items[index].name, Items[index].price, Items[index].src)}>
             Add to cart
           </button>
-        </div>
       </div>
       </div>
     </div>
